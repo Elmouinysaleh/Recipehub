@@ -98,6 +98,8 @@ def reservation():
     return message_display
 
 
+# Serve the 'styles' directory as a static directory
+app.add_url_rule('/styles/<path:filename>', endpoint='styles', view_func=app.send_static_file)
 
 if __name__ == "__main__":
     app.debug = True
