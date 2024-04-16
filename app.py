@@ -9,10 +9,10 @@ app.secret_key = 'RecipeHub'
 
 # Database configuration
 db = mysql.connector.connect(
-    host="localhost",
-    user="saleh",
-    password="saleh 1997@",
-    database="RecipeHub"
+    host="https://elmouiny.000webhostapp.com",
+    user="id22051403_saleh",
+    password="Saleh 1997@",
+    database="id22051403_recipehub"
 )
 
 # Create a cursor to interact with the database
