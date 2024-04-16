@@ -9,7 +9,7 @@ app.secret_key = 'RecipeHub'
 
 # Database configuration
 db = mysql.connector.connect(
-    host="https://elmouiny.000webhostapp.com",
+    host="https://databases.000webhost.com/",
     user="id22051403_saleh",
     password="Saleh 1997@",
     database="id22051403_recipehub"
