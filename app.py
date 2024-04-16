@@ -3,6 +3,7 @@ import mysql.connector
 
 
 app = Flask(__name__)
+app.template_folder = 'static/templates'
 
 # Set the secret key for the Flask application
 app.secret_key = 'RecipeHub'
