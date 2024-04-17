@@ -12,10 +12,10 @@ app.secret_key = 'RecipeHub'
 
 # Database configuration
 db = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="",
-    database="RecipeHub"
+    host="sql8.freemysqlhosting.net",
+    user="sql8699601",
+    password="iVUJDLWfM7",
+    database="sql8699601"
 )
 
 # Create a cursor to interact with the database
